@@ -4,15 +4,16 @@
 }
 
 .paragraph-animate {
-  transition: all ease 2s
+  transition: transform opacity ease-out 0.3s;
+  will-change: transform opacity;
 }
 
 .from-left {
-  transform: translateX(-100%);
+  transform: translateX(-10%);
   opacity: 0;
 }
 
 .from-right {
-  transform: translateX(100%);
+  transform: translateX(10%);
   opacity: 0;
 }

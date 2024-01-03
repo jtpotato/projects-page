@@ -16,9 +16,9 @@ function Firetrace() {
   return (<>
     <ThemeProvider theme={FiretraceTheme}>
       <Hero>
-        <div>
-          <img src="https://raw.githubusercontent.com/jtpotato/firetrace/82539cb4739da2ad58bf742ad5b622c745b2aa17/assets/banner-transparent.svg" className="w-48" />
-          <h1 className="text-[var(--accent1)] text-lg">Firetrace - Open and Accessible Bushfire Model</h1>
+        <div className="w-[100vw]">
+          <img src="https://raw.githubusercontent.com/jtpotato/firetrace/82539cb4739da2ad58bf742ad5b622c745b2aa17/assets/banner-transparent.svg" className="w-[70%] m-auto" />
+          <h1 className="text-lg max-w-3xl m-auto px-4">Firetrace - Open and Accessible Bushfire Model</h1>
         </div>
       </Hero>
       <BobaParagraph direction={"left"}>
@@ -30,7 +30,7 @@ function Firetrace() {
           the scale of future fires.
         </p>
       </BobaParagraph>
-      <BobaParagraph direction={"right"}>
+      <BobaParagraph direction={"left"}>
         <h2>For Everyone</h2>
         <p>
           Historically, bushfire modelling has been a complex task,
@@ -58,7 +58,7 @@ function Firetrace() {
           avaliable to everyone to download.
         </p>
       </BobaParagraph>
-      <BobaParagraph direction={"right"}>
+      <BobaParagraph direction={"left"}>
         <h2>A Breakthrough in Simplicity ✨</h2>
         <p>
           As a result of our unwavering commitment to accessibility and ease
