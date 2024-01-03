@@ -17,7 +17,7 @@ function Firetrace() {
     <ThemeProvider theme={FiretraceTheme}>
       <Hero>
         <div className="w-[100vw]">
-          <img src="https://raw.githubusercontent.com/jtpotato/firetrace/82539cb4739da2ad58bf742ad5b622c745b2aa17/assets/banner-transparent.svg" className="w-[70%] m-auto" />
+          <img src="https://raw.githubusercontent.com/jtpotato/firetrace/82539cb4739da2ad58bf742ad5b622c745b2aa17/assets/banner-transparent.svg" className="w-[70%] m-auto" alt="Firetrace Logo" />
           <h1 className="text-lg max-w-3xl m-auto px-4">Firetrace - Open and Accessible Bushfire Model</h1>
         </div>
       </Hero>
