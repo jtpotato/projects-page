@@ -4,13 +4,14 @@
 }
 
 .paragraph-animate {
-  transition: transform opacity ease-out 0.3s;
+  transition:  all 0.3s;
   will-change: transform opacity;
 }
 
 .from-left {
   transform: translateX(-10%);
   opacity: 0;
+  filter: blur(5px);
 }
 
 .from-right {
