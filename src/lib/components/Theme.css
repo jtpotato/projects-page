@@ -1,0 +1,18 @@
+:root {
+  background-color: var(--background1);
+  color: var(--text1)
+}
+
+.paragraph-animate {
+  transition: all ease 2s
+}
+
+.from-left {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.from-right {
+  transform: translateX(100%);
+  opacity: 0;
+}
